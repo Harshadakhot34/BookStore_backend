@@ -1,0 +1,27 @@
+{
+  "name": "bookstore_backend",
+  "version": "1.0.0",
+  "description": "A bookstore website is an online platform where users can explore and purchase books across various genres.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshadakhot34/BookStore_backend.git"
+  },
+  "author": "harshada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshadakhot34/BookStore_backend/issues"
+  },
+  "homepage": "https://github.com/Harshadakhot34/BookStore_backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  }
+}
